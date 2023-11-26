@@ -1,6 +1,6 @@
 import "../Navbar/Style/navbar.css"
-import Logo from "../../../assets/images/logo.png"
-import { FaBars } from "react-icons/fa6";
+import Logo from "../../../assets/images/Logo.png"
+
 
 
 function Navbar() {
