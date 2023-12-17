@@ -4,7 +4,7 @@ import Logo from "../../../assets/images/logo.png"
 
 
 function Footer() {
-  return (
+return (
      <footer>
           <div className="footer">
                <div className="footer-top font-secondary font-bold text-sm flex justify-around items-center bg-[#999] h-24 w-full">
@@ -28,12 +28,13 @@ function Footer() {
                     </div>
                </div>
                <div className="footer-mid flex flex-col gap-3 justify-center items-center h-60">
-                    <img src={Logo} alt="company logo" className="w-20 h-20" />
+                    <a href="/">
+                    <img src={Logo} alt="company logo" className="w-20 h-20" /></a>
                     <h4 className="font-primary font-bold text-2xl">Henry Hope Engineering</h4>
                     <h4 className="font-primary font-bold text-2xl">Nigeria Limited</h4>
                     <div className="socialicons flex gap-5">
-                         <a href=""><FaLinkedin className="w-8 h-8 text-[#4157a8]"/></a>
-                         <a href=""><FaSquareInstagram className="w-8 h-8 text-[#e252e2]"/></a>
+                         <a href="/coming-soon"><FaLinkedin className="w-8 h-8 text-[#4157a8]"/></a>
+                         <a href="/coming-soon"><FaSquareInstagram className="w-8 h-8 text-[#e252e2]"/></a>
                     </div>
                </div>
                <div className="font-secondary font-bold text-xs flex justify-center items-center bg-[#ccc] h-20">
@@ -45,7 +46,7 @@ function Footer() {
                </div>
           </div>
      </footer>
-  )
+)
 }
 
 export default Footer;
